@@ -1,0 +1,45 @@
+# ==========================================================
+# DATOS: no se versionan (los CSV de Kaggle pesan ~100 MB)
+# ==========================================================
+/data/raw/*
+/data/interim/*
+/data/processed/*
+/data/external/*
+# ...pero sí conservamos las carpetas vacías (archivos .gitkeep)
+!/data/**/.gitkeep
+*.csv
+*.zip
+*.parquet
+*.pkl
+
+# Modelos entrenados
+/models/*
+!/models/.gitkeep
+
+# ==========================================================
+# Python
+# ==========================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================================
+# Editores / sistema operativo
+# ==========================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
