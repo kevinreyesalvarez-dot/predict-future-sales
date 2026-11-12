@@ -8,7 +8,7 @@ tienda‑producto para noviembre de 2015; este EDA prepara esa etapa de forecast
 ## Cómo reproducir
 
 ```bash
-git clone https://github.com/<usuario>/predict-future-sales.git
+git clone https://github.com/<kevinreyesalvarez-dot>/predict-future-sales.git
 cd predict-future-sales
 python -m venv .venv
 # Windows: .venv\Scripts\activate    |  Mac/Linux: source .venv/bin/activate
